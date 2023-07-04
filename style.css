@@ -76,3 +76,16 @@ main section{
     padding: 3vh;
     font-size: 1.5rem;
 }
+
+.main-text .btn{
+    padding: 10px 25px;
+    background: #bfa1d0;
+    border-radius: 20px;
+    color: #000000;
+    font-size: 1.3rem;
+    transition: all 0.5s;
+}
+
+.main-text .btn:hover{
+    opacity: .85;
+}
