@@ -49,6 +49,27 @@ header{
     border-bottom: 1px solid #ffffff;
 }
 
+.btn{
+    padding: 10px 20px;
+    width: 80px;
+    color: #000000;
+    background: #bfa1d0;
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    margin: -20px;
+    position: relative;
+    top: 310px;
+    right: 260px;
+}
+
+.btn:hover{
+    background: #c05df2;
+    transition: background 1s;
+}
+
 /* main */
 
 main section{
@@ -60,21 +81,27 @@ main section{
 
 .main-text img{
     width: 30rem;
-    margin-bottom: -19vh;
+    margin-bottom: -150px;
+    margin-left: -20px;
+
 }
 
 .main-text h3{
-    color: #ffffff;
-    font-size: 3.5rem;
-    margin-bottom: 3rem;
-    padding: 2.7vh;
+    color: #bfa1d0;
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+    padding: -2vh;
+    z-index: 9999;
+    margin: 90px;
 }
 
 .meusParagrafos{
-    color: #ffffff;
-    margin-bottom: 1rem;
-    padding: 3vh;
-    font-size: 1.5rem;
+    color: #bfa1d0;
+    margin-bottom: 2rem;
+    padding: -1vh;
+    font-size: 1.4rem;
+    margin: 19px;
+    margin-top: -70px;
 }
 
 .main-text .btn{
@@ -95,6 +122,7 @@ main section{
     position: relative;
     width: 740px;
     z-index: 9999;
+    
 }
 
 .circle{
